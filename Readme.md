@@ -32,11 +32,11 @@ Quaisquer aplicações não presentes necessárias a execução deverão ser bai
 
 #### 2. Para utilizar a aplicação orquestrada pelo Airflow:
 
-* Inicie o docker:
+Inicie o docker:
     
     sudo service docker start
 
-* Navegue até a pasta onde se encontra o ambiente e execute:
+Navegue até a pasta onde se encontra o ambiente e execute:
     
     docker-compose -f docker-compose-CeleryExecutor.yml up -d --scale worker=2
 
