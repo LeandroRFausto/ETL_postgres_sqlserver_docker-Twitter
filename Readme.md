@@ -2,6 +2,13 @@
 
 Desenvolve duas aplicações distintas com uso da API do Twitter. A primeira realiza ETL no SQL Server através do driver ODBC. A outra trata os dados coletados na aplicação anterior, deposita-os no Postgres e cria uma view. O processo neste caso é orquestrado pelo Airflow em ambiente Docker. 
 
+## Índice
+- [Descrição](#Descrição)
+- [Configuração](#Configuração)
+- [Uso](#Uso)
+    - [Para o ETL no SQLServer](#Para o ETL no SQLServer)
+    - [Para utilizar a aplicação orquestrada pelo Airflow](#Para utilizar a aplicação orquestrada pelo Airflow)
+
 # Descrição
 #### Componentes utilizados:
 * **Sistema operacional: windows 11 com Ubuntu 20.04 rodando em WSL2**
@@ -17,7 +24,7 @@ Necessário importar pacotes que serão utilizados no arquivo get_tweets.py e da
 Quaisquer aplicações não presentes necessárias a execução deverão ser baixadas. 
 
 # Uso
-#### 1. Para o ETL no SQLServer:
+#### Para o ETL no SQLServer:
 
 * Necessário criar uma conta de desenvolvedor no Twitter para ter acesso as chaves "consumer" e "access" e inserí-las no "cadastro das chaves de acesso" do arquivo get_tweets.py.
 
@@ -30,7 +37,7 @@ Quaisquer aplicações não presentes necessárias a execução deverão ser bai
 
 * Abra o SGBD de sua preferência para consumo dos dados.
 
-#### 2. Para utilizar a aplicação orquestrada pelo Airflow:
+#### Para utilizar a aplicação orquestrada pelo Airflow:
 
 Inicie o docker:
     
