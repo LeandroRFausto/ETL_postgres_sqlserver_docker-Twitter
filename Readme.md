@@ -6,8 +6,8 @@ Desenvolve duas aplicações distintas com uso da API do Twitter. A primeira rea
 - [Descrição](#Descrição)
 - [Configuração](#Configuração)
 - [Uso](#Uso)
-    - [Para o ETL no SQLServer](#Para o ETL no SQLServer)
-    - [Para utilizar a aplicação orquestrada pelo Airflow](#Para utilizar a aplicação orquestrada pelo Airflow)
+    - [Para o ETL no SQLServer](#Para-o-ETL-no-SQLServer)
+    - [Para utilizar a aplicação orquestrada pelo Airflow](#Para-utilizar-a-aplicação-orquestrada-pelo-Airflow)
 
 # Descrição
 #### Componentes utilizados:
