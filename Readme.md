@@ -46,6 +46,10 @@ A configuração define o Airflow no http://localhost:8080/ .
 
 * No ambiente, crie uma pasta com nome "data" e Execute a DAG
 
+<p align="center">
+<img src="https://github.com/LeandroRFausto/ETL_postgres_sqlserver_docker-Twitter/blob/main/tweet_postgres_airflow%20-%20docker/GraphView_dag.png" alt="Image" height="300" width="600"/>
+</p>
+
 * O Graph View deverá demonstrar todos os trabalhos em verde. Quando o status for "success", abra o SGBD de sua preferência, lá estarão uma tabela e um View.  
 
 * O Airflow terá: separado todos os tweets em arquivos json e salvado na pasta data. Neste projeto, foram salvos 1940 arquivos json; executado um sensor de arquivo que certifica a existência de um dado; lido cada um dos json e exportado para csv já processado(pandas); listado o que está no ambiente; juntado todos os csv's; escrito a tabela no Postgres e criado uma View. Conforme arquivos table.sql e view.sql salvos no projeto.  
