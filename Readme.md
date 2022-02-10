@@ -2,12 +2,12 @@
 
 Desenvolve duas aplicações distintas com uso da API do Twitter. A primeira realiza ETL no SQL Server através do driver ODBC. A outra trata os dados coletados na aplicação anterior, deposita-os no Postgres e cria uma view. O processo neste caso é orquestrado pelo Airflow em ambiente Docker. 
 
-## Índice
+# Índice
 - [Descrição](#Descrição)
 - [Configuração](#Configuração)
 - [Uso](#Uso)
-    - [Para o ETL no SQLServer](#Para o ETL no SQLServer)
-    - [Para utilizar a aplicação orquestrada pelo Airflow](#Para utilizar a aplicação orquestrada pelo Airflow)
+    - [Para o ETL no SQLServer]()
+    - [Para utilizar a aplicação orquestrada pelo Airflow]()
 
 # Descrição
 #### Componentes utilizados:
